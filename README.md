@@ -39,9 +39,9 @@ Problems are motivated by the ones shared at:
 Numbers
 ---------
 
-(Completed w/ tests)**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+(Mar. 19, 2016)(Completed w/ tests)**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-(Completed w/ tests)**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+(Mar. 20, 2016)(Completed w/ tests)**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
