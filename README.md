@@ -1,18 +1,15 @@
 Mega Project List
 ========
 
-A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
+Fork of Karan Goel's github repo: https://github.com/karan/Projects
 
-To get started, simply fork this repo.
+Goal for this is to have material to apply Python, which I am planning on learning at a quick pace. Thought it would be fun to chronicle my progression.
 
-## [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
+I am also unit-testing whatever functionality I build using pytest.
 
-See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
+Using this as a resource for coding in a "pythonic" style: http://docs.python-guide.org/
 
-
-## [Solutions](https://github.com/thekarangoel/Projects-Solutions)
-
-You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
+IDE I am using is Jetbrain's PyCharm on a Windows machine
 
 ## Credits
 
@@ -42,13 +39,9 @@ Problems are motivated by the ones shared at:
 Numbers
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+(Completed w/ tests)**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-**Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
-
-**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
-
-**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+(Completed w/ tests)**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
