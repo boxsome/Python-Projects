@@ -1,11 +1,11 @@
-Mega Project List
+Python Project List
 ========
 
 Fork of Karan Goel's github repo: https://github.com/karan/Projects
 
 Goal for this is to have material to apply Python, which I am planning on learning at a quick pace. Thought it would be fun to chronicle my progression.
 
-I am also unit-testing whatever functionality I build using pytest.
+I am also unit-testing whatever functionality I build using pytest alongside driver code to manually test functionality.
 
 Using this as a resource for coding in a "pythonic" style: http://docs.python-guide.org/
 
