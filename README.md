@@ -9,7 +9,7 @@ I am also unit-testing whatever functionality I build using pytest alongside dri
 
 Using this as a resource for coding in a "pythonic" style: http://docs.python-guide.org/
 
-IDE I am using is Jetbrain's PyCharm on a Windows machine
+IDE I am using is Jetbrain's PyCharm on a Windows machine.
 
 ## Credits
 
