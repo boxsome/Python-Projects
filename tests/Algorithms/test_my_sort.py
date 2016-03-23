@@ -14,7 +14,7 @@ def test_merge_sort_empty_test():
 
 
 def test_merge_sort_single_ele():
-    assert MySort.merge_sort([1]) == [1]
+    assert MySort.merge_sort([1, 2]) == [1]
 
 
 def test_merge_sort_random_tests():
