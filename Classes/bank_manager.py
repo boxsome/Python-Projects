@@ -76,6 +76,18 @@ class Bank(object):
 
         return False
 
+    def get_account(self, user, account_type):
+        """Gets the account for user of *account_type*. Returns None if the account doesn't exist"""
+        if user is None:
+            raise ValueError("*user* must be a valid Bank.User object. It cannot be None.")
+
+        if user not in self._user_accounts:
+            return None
+
+        return self._user_accounts[user].get(account_type, None)
+
+
+
 # Just for fun, validates amount for any functions involving amount
 def amount_validator(f):
     @wraps(f)
