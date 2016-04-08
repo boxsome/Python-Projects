@@ -1,4 +1,8 @@
 class GraphNode:
+    """Simple representation of a node in a graph. The graph itself would be a set of these graph nodes.
+    The graph can be either directed or undirected, depending on if two connected nodes contain the edge for each other
+    or not.
+    """
 
     def __init__(self, node_id):
         self._node_id = node_id
@@ -29,7 +33,8 @@ class GraphNode:
 
 
 class Edge:
-
+    """Simple representation of an edge in a graph. Goes along with GraphNode.
+    """
     def __init__(self, weight, start, end):
         self._weight = weight
         self._start = start

@@ -7,6 +7,8 @@ def find_shortest_path_length(graph, start_node_id, end_node_id):
     """Finds the shortest path between two given nodes in the given graph. Uses dijkstra's algorithm to do this.
 
     A few notes:
+        This should work for *graph* whether it's a DAG or a undirected graph.
+
         Not really use a priority queue but simulating its functionality with a normal deque.
         We lose some performance in doing this (I chose not to use queue.PriortyQueue for this exercise).
         This causes us to have a worst-case of O(|V|^2) where V is the set of nodes.
@@ -37,7 +39,8 @@ def find_shortest_path_length(graph, start_node_id, end_node_id):
                 distances[other_node.node_id] = cur_dist
 
 
-# Driver code for find_shortest_path_length for manual testing
+# Driver code for find_shortest_path_length for manual testing. In this case, an undirected graph is built for use from
+# input
 if __name__ == "__main__":
     print("Please enter number of nodes and number of edges as space separated integers.")
     num_nodes, num_edges = map(int, input().split(" "))
